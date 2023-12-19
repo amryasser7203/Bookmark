@@ -1,0 +1,117 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    font-weight: 300;
+}
+
+.form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.form input[type="text"],
+.form button {
+    flex-grow: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form input[type="text"]:last-child {
+    margin-right: 0;
+}
+
+.form button {
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form button:hover {
+    background-color: #4cae4c;
+}
+
+.bookmarks-container {
+    margin-top: 20px;
+}
+
+.bookmark-header,
+.bookmark-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.bookmark-header {
+    background-color: #e7e7e7;
+    font-weight: bold;
+}
+
+.bookmark-item {
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.bookmark-item:hover {
+    background-color: #f1f1f1;
+}
+
+.index-header,
+.name-header,
+.visit-header,
+.delete-header {
+    flex-basis: 20%;
+}
+
+.name-header {
+    flex-basis: 40%;
+}
+
+.action-button {
+    padding: 5px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.visit-button {
+    background-color: #337ab7;
+    color: white;
+}
+
+.delete-button {
+    background-color: #d9534f;
+    color: white;
+    position: relative;
+    right: 95px;
+}
+
+.action-button:hover {
+    opacity: 0.8;
+}
